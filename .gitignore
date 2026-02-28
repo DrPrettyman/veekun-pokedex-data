@@ -8,3 +8,19 @@ nbproject
 *.lock
 *.sqlite
 *.sqlite-journal
+*.ipynb
+
+.venv
+*.pyc
+*.pyo
+*.pyd
+*.pya
+*.pyi
+*.rej
+*.bak
+*.swp
+
+.claude/
+
+# npm module
+pokedata3g/
