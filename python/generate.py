@@ -82,7 +82,7 @@ def snake_to_camel_keys(d: dict, include_keys: list = None) -> dict:
                 if isinstance(item, dict):
                     new_v.append(snake_to_camel_keys(item))
                 else:
-                    new_v.append(v)
+                    new_v.append(item)
             new_d[new_k] = new_v
         else:
             new_d[new_k] = v
@@ -221,7 +221,7 @@ def generate():
         "priority", "target_id", "effect_id", "effect_chance",
         "category_id", "ailment_id", "min_hits", "max_hits", "min_turns", "max_turns",
         "drain", "healing", "crit_rate", "ailment_chance", "flinch_chance", "stat_chance",
-        "stat_changes",
+        "stat_changes", "flag_ids",
     ])
     # Items: all Gen 3 items with metadata + structured effects where available
     with open(os.path.join(SCRIPT_DIR, 'item_effects.json')) as f:
