@@ -25,5 +25,8 @@ nbproject
 # large files
 python/assets/decomp-hacks/
 
+# downloaded via setup.py
+python/assets/veekun-csv/
+
 # npm module
 pokedata3g/
