@@ -23,7 +23,7 @@ nbproject
 .claude/
 
 # large files
-python/decomp-hacks/
+python/assets/decomp-hacks/
 
 # npm module
 pokedata3g/
